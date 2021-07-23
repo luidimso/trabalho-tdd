@@ -1,26 +1,26 @@
 # TrabalhoTdd
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.1.8.
+## Instruções sobre o trabalho
+
+Os códigos HTML e as funções responsáveis pela lógica desse trabalho estão em `src\app`, sendo esses os arquivos principais:
+
+* `app.component.html`;
+* `app.component.spec.ts`: implementação dos testes unitários em Jest;
+* `app.component.ts`: lógica e funções do trabalho;
+* `trabalhador.interface.ts`: interface do objeto trabalhador;
+* `trabalhadores.db.ts`: simulação da base de dados do trabalho
+
+Esse trabalho foi desenvolvido utilizando Angular versão 9.1.8. Para executar o servidor e os testes unitários, é necessário o Angular CLI instalado, o qual pode ser instalado pelo o seguinte [link](https://angular.io/guide/setup-local#install-the-angular-cli).
+ 
+Abaixo seguem as instruções para executar o servidor Angular e os testes unitários.
 
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
-
 ## Running unit tests
 
 Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
 
 ## Further help
 
